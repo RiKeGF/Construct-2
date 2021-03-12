@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>F_Menu_ES</name>
+    <events>
+        <include>TESTE</include>
+        <event-block sid="531406274494576">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="195202886951393" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="390263070710632" type="Audio">
+                    <param id="0" name="Audio file">Alex_Mason_-_06_-_Lost_Planet</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;M_Menu&quot;</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="683638054577476" type="System" />
+                <action id="-12" name="Set group active" sid="946450430053762" type="System">
+                    <param id="0" name="Group name">&quot;Detetive2&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-45" name="Reset persisted objects" sid="462028595909736" type="System" />
+                <action id="3" name="Start" sid="326394101604934" type="menu_bg">
+                    <param id="0" name="From">0</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="703497147723918" type="fade_menu">
+                    <param id="0" name="Fade-in time">0</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="305212024492822" type="fade_menu">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="465100544199526" type="fade_menu">
+                    <param id="0" name="Fade-out time">0.8</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="776896904760640" type="fade_menu" />
+            </actions>
+        </event-block>
+        <event-block sid="998818975629516">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="797156778600832" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">icon_jogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="411636002791494" type="icon_jogar">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="948518439306038" type="fade_menu">
+                    <param id="0" name="Fade-in time">0.8</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="878745255857544" type="fade_menu">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="557301296797859" type="fade_menu">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="625998074044551" type="fade_menu" />
+                <action id="-16" name="Wait" sid="373616558544820" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="801432536163512" type="icon_jogar">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="6" name="Stop" sid="924166975461709" type="Audio">
+                    <param id="0" name="Tag">&quot;M_Menu&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="857977814652304" type="System">
+                    <param id="0" name="Layout">1_L</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="421708291880687">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="703883944758391" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">icon_info</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="762340496722393" type="icon_info">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="989708683676142" type="fade_menu">
+                    <param id="0" name="Fade-in time">0.8</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="205339521178095" type="fade_menu">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="370670764999669" type="fade_menu">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="546000276874694" type="fade_menu" />
+                <action id="-16" name="Wait" sid="771730254070821" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="989855258764618" type="icon_info">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="914137556295975" type="System">
+                    <param id="0" name="Layout">F_Menu2_L</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="663347480367278">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="769100404728239" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">icon_creditos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="362222855160482" type="icon_creditos">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="351565999735039" type="fade_menu">
+                    <param id="0" name="Fade-in time">0.8</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="973979788782070" type="fade_menu">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="369317834515488" type="fade_menu">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="333510655488208" type="fade_menu" />
+                <action id="-16" name="Wait" sid="863267608513627" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="947644055603022" type="icon_creditos">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="559988581300194" type="System">
+                    <param id="0" name="Layout">F_Creditos_L</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

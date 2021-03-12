@@ -1,0 +1,2239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Detetive</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2hay0uxuyz5sa</unique-id>
+    <saved-with-version>25900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>F_Menu_L</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Detetive1_sprite" sid="971301627321500">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="direção_cena" sid="140010169278311" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="635842480724051">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="489086476776685">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428131175176334" speed="5">
+                    <frame duration="1" hotspotX="0.468" hotspotY="-1.412" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta" sid="412295288434956">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="797781175063702" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Detetive2" sid="761489444614270">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="direção" sid="619249889594320" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="612842176075724">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="807268081453412">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237633638902725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta_E_1" sid="877569462943107">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900100628263100" speed="5">
+                    <frame duration="1" hotspotX="-0.784615" hotspotY="1.5" original-source="C:\Users\rikef\Desktop\sprites(game jam)\objetos\porta 2 transparente.png">
+                        <collision-poly>
+                            <point x="0.00512821" y="0.126984" />
+                            <point x="0.497436" y="0.00396825" />
+                            <point x="0.994872" y="0.123016" />
+                            <point x="0.994872" y="0.892857" />
+                            <point x="0.497436" y="0.996032" />
+                            <point x="0.00512821" y="0.888889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta_E_2" sid="648487188471310">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851719038406601" speed="5">
+                    <frame duration="1" hotspotX="-2.65169" hotspotY="1.01818" original-source="C:\Users\rikef\Desktop\sprites(game jam)\objetos\porta1 transparente.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0.0909091" />
+                            <point x="1" y="0.494545" />
+                            <point x="1" y="0.996364" />
+                            <point x="0" y="0.276364" />
+                            <point x="0" y="0.494545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta_E_3" sid="651027141859199">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577301487674824" speed="5">
+                    <frame duration="1" hotspotX="-0.784615" hotspotY="1.5" original-source="C:\Users\rikef\Desktop\sprites(game jam)\objetos\porta 2 transparente.png">
+                        <collision-poly>
+                            <point x="0.00512821" y="0.126984" />
+                            <point x="0.497436" y="0.00396825" />
+                            <point x="0.994872" y="0.123016" />
+                            <point x="0.994872" y="0.892857" />
+                            <point x="0.497436" y="0.996032" />
+                            <point x="0.00512821" y="0.888889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="portaF" sid="255339976975525">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589885548183469" speed="5">
+                    <frame duration="1" hotspotX="0.552239" hotspotY="1.49164" original-source="E:\porta saida.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="171687463830803">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="562676236867092">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="porta_S_2" sid="307604028151230">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="429326165253904" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\sprites(game jam)\objetos\porta 2 transparente.png">
+                        <collision-poly>
+                            <point x="0.00512821" y="0.126984" />
+                            <point x="0.497436" y="0.00396825" />
+                            <point x="0.994872" y="0.123016" />
+                            <point x="1" y="0.428571" />
+                            <point x="0.48718" y="0.412698" />
+                            <point x="0" y="0.40873" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta_S_3" sid="313500575057162">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542812895181650" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta_S_1" sid="495179532261390">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737409338905697" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Banheira" sid="147805880064084">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="885568221416692">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800814334579805" speed="5">
+                    <frame duration="1" hotspotX="0.0606061" hotspotY="0.952381" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\objetos\banheira2.png">
+                        <collision-poly>
+                            <point x="0.417107" y="0" />
+                            <point x="0.582893" y="0" />
+                            <point x="0.900647" y="0" />
+                            <point x="0.942094" y="0.94746" />
+                            <point x="0.0579064" y="0.94746" />
+                            <point x="0.0993527" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cortina_banheiro" sid="700444954919766">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="140032865922592">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="202900609580359" speed="5">
+                    <frame duration="1" hotspotX="-0.617647" hotspotY="1.22831" original-source="C:\Users\rikef\Desktop\cortina_banheiro1.png">
+                        <collision-poly>
+                            <point x="0.82353" y="0.0410962" />
+                            <point x="0.843138" y="0.0821913" />
+                            <point x="0.941176" y="0.538813" />
+                            <point x="0.578431" y="0.780822" />
+                            <point x="0.401961" y="0.789954" />
+                            <point x="0.294118" y="0.926941" />
+                            <point x="0.107843" y="0.986301" />
+                            <point x="0.0490192" y="0.607306" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vaso" sid="112870718440555">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="626400502602298">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="767361232507764" speed="5">
+                    <frame duration="1" hotspotX="-2.58696" hotspotY="1.41525" original-source="F:\GameJam\sprites(game jam)\objetos\banheiro\aberta.png">
+                        <collision-poly>
+                            <point x="0.318841" y="0.00847458" />
+                            <point x="0.586957" y="0.0254239" />
+                            <point x="0.655797" y="0.45339" />
+                            <point x="0.855072" y="0.449153" />
+                            <point x="0.891304" y="1" />
+                            <point x="0.311594" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="espelho" sid="370428666088699">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="897186624318123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\sem_reflexo.png">
+                        <collision-poly>
+                            <point x="0" y="0.0276968" />
+                            <point x="0.623967" y="0" />
+                            <point x="1" y="0.241358" />
+                            <point x="1" y="0.69117" />
+                            <point x="0.964876" y="1" />
+                            <point x="0.267561" y="1" />
+                            <point x="0" y="0.69117" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="reflexo" pingpong="0" repeatcount="1" repeatto="0" sid="163447614894794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\refelxo.png">
+                        <collision-poly>
+                            <point x="0.0113636" y="0.122449" />
+                            <point x="0.5" y="0.0204082" />
+                            <point x="0.954545" y="0.153061" />
+                            <point x="0.988636" y="0.877551" />
+                            <point x="0.5" y="0.989796" />
+                            <point x="0.0454545" y="0.846939" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pia" sid="226881844608428">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="386622364946690">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913749034992993" speed="5">
+                    <frame duration="1" hotspotX="-0.268116" hotspotY="1.10577" original-source="F:\GameJam\sprites(game jam)\objetos\banheiro\pia.png">
+                        <collision-poly>
+                            <point x="0.927536" y="0.0961537" />
+                            <point x="0.753623" y="1" />
+                            <point x="0.405797" y="1" />
+                            <point x="0.101449" y="0.0288462" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sangue_sala" sid="596136280954741">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868470911137435" speed="5">
+                    <frame duration="1" hotspotX="-0.0627803" hotspotY="1.69231" original-source="C:\Users\rikef\Desktop\sprites(game jam)\personagem morto\sangue 1.png">
+                        <collision-poly>
+                            <point x="0.502242" y="0.4" />
+                            <point x="0.497758" y="0.384615" />
+                            <point x="0.632287" y="0.0615385" />
+                            <point x="0.717489" y="0.492308" />
+                            <point x="0.502242" y="0.738462" />
+                            <point x="0.197309" y="0.8" />
+                            <point x="0.605381" y="0.0615385" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="faca" sid="200346114161218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832280772406691" speed="5">
+                    <frame duration="1" hotspotX="-0.0227273" hotspotY="1.0167" original-source="F:\GameJam\sprites(game jam)\objetos\faca.png">
+                        <collision-poly>
+                            <point x="0" y="0.991649" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tv" sid="505052139159497">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="366124716850013">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195131531036376" speed="5">
+                    <frame duration="1" hotspotX="1.21711" hotspotY="1.08533" original-source="C:\Users\julia\Desktop\tv.png">
+                        <collision-poly>
+                            <point x="1" y="0.28083" />
+                            <point x="0.891955" y="0.993893" />
+                            <point x="0.245837" y="0.963953" />
+                            <point x="0.0821757" y="0.856169" />
+                            <point x="0.19156" y="0.304782" />
+                            <point x="0.217931" y="0.11976" />
+                            <point x="0.796759" y="0.113772" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="caixa" sid="139052109458351">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="335673269312950">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557261938520066" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\caixa1.png">
+                        <collision-poly>
+                            <point x="0.203704" y="0.2" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.907407" y="0.0909091" />
+                            <point x="0.972222" y="0.5" />
+                            <point x="0.861111" y="0.863636" />
+                            <point x="0.5" y="0.972727" />
+                            <point x="0" y="1" />
+                            <point x="0.0648148" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mesa_porao" sid="747290244100991">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="740327305447928">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906392706408697" speed="5">
+                    <frame duration="1" hotspotX="0.00862069" hotspotY="0.983333" original-source="C:\Users\rikef\Desktop\mesa1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.465517" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.982759" y="0.5" />
+                            <point x="0.887931" y="0.916667" />
+                            <point x="0.741379" y="0.475" />
+                            <point x="0.491379" y="0.516667" />
+                            <point x="0.241379" y="0.533333" />
+                            <point x="0.0818966" y="0.941667" />
+                            <point x="0.0258621" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="balcao_porao" sid="791901185611318">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="873826431261253">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505816935748971" speed="5">
+                    <frame duration="1" hotspotX="-0.0187266" hotspotY="1.04982" original-source="C:\Users\rikef\Desktop\mesa_porao.png">
+                        <collision-poly>
+                            <point x="0.250936" y="0.0533808" />
+                            <point x="0.498127" y="0.0320285" />
+                            <point x="0.985019" y="0.0142349" />
+                            <point x="0.872659" y="0.505338" />
+                            <point x="0.565543" y="0.494662" />
+                            <point x="0.363296" y="0.914591" />
+                            <point x="0.00749064" y="0.992883" />
+                            <point x="0.093633" y="0.498221" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="corda" sid="903528394727477">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="617093770310455" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="morto_porao" sid="814236361228484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="pendurado" pingpong="0" repeatcount="1" repeatto="0" sid="798562611036635" speed="5">
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" original-source="D:\GJ\personagem morto enforcado 2.png">
+                        <collision-poly>
+                            <point x="0.27027" y="0.188889" />
+                            <point x="0.486486" y="0.222222" />
+                            <point x="0.594595" y="0.244444" />
+                            <point x="0.918919" y="0.511111" />
+                            <point x="0.864865" y="0.888889" />
+                            <point x="0.486486" y="0.9" />
+                            <point x="0.351351" y="0.8" />
+                            <point x="0.0810811" y="0.511111" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="caiu" pingpong="0" repeatcount="1" repeatto="0" sid="476732839453913" speed="5">
+                    <frame duration="1" hotspotX="0.267857" hotspotY="0.147541" original-source="E:\GameJam\sprites(game jam)\personagem morto\personagem morto enforcado 3.png">
+                        <collision-poly>
+                            <point x="0.0714286" y="0.311475" />
+                            <point x="0.410714" y="0.196721" />
+                            <point x="0.660714" y="0.393443" />
+                            <point x="0.75" y="0.52459" />
+                            <point x="0.839286" y="0.836066" />
+                            <point x="0.410714" y="0.852459" />
+                            <point x="0.267857" y="0.57377" />
+                            <point x="0.178571" y="0.52459" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="morto_sala2" sid="399681182708957">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738472854009660" speed="5">
+                    <frame duration="1" hotspotX="0.0128205" hotspotY="0.984375" original-source="C:\Users\rikef\Desktop\sprites(game jam)\personagem morto\morto com sangue.png">
+                        <collision-poly>
+                            <point x="0.320513" y="0.328125" />
+                            <point x="0.5" y="0.203125" />
+                            <point x="0.679487" y="0.328125" />
+                            <point x="0.807692" y="0.46875" />
+                            <point x="0.871795" y="0.84375" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.25641" y="0.6875" />
+                            <point x="0.24359" y="0.46875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chave_banheiro" sid="914872032496143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708191859028415" speed="5">
+                    <frame duration="1" hotspotX="-0.268018" hotspotY="1.27517" original-source="F:\GameJam\sprites(game jam)\objetos\chave prata.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soda" sid="978460750714326">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="763928258588182" speed="5">
+                    <frame duration="1" hotspotX="-0.00623701" hotspotY="1.00628" original-source="F:\GameJam\sprites(game jam)\objetos\banheiro\soda.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chave_porao" sid="232107951194410">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566158908870791" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\objetos\chave dourada.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="estante" sid="268536842545665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403174506757689" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\objetos\armario,vaso,flor\armario.png">
+                        <collision-poly>
+                            <point x="0.21579" y="0.105528" />
+                            <point x="0.5" y="0.0929648" />
+                            <point x="0.907895" y="0.0879397" />
+                            <point x="0.863158" y="0.929648" />
+                            <point x="0.552631" y="0.924623" />
+                            <point x="0.202632" y="0.927136" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="desentupidor" sid="506224092942492">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476635313658501" speed="5">
+                    <frame duration="1" hotspotX="-0.904665" hotspotY="1.12903" original-source="F:\GameJam\sprites(game jam)\objetos\desentupidor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="desentupidor2" sid="744618778342633">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449744609976876" speed="5">
+                    <frame duration="1" hotspotX="-0.0040568" hotspotY="0.997984" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\objetos\desentupidor.png">
+                        <collision-poly>
+                            <point x="0.498986" y="0.245968" />
+                            <point x="0.529411" y="0.25" />
+                            <point x="0.533469" y="0.497984" />
+                            <point x="0.594321" y="0.669355" />
+                            <point x="0.442191" y="0.683468" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="camera" sid="586617682891208">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308531054765006" speed="5">
+                    <frame duration="1" hotspotX="-0.0444444" hotspotY="1.05389" original-source="C:\Users\rikef\Desktop\camera.png">
+                        <collision-poly>
+                            <point x="0.208889" y="0.251497" />
+                            <point x="0.52" y="0.0479042" />
+                            <point x="0.857778" y="0.215569" />
+                            <point x="0.995556" y="0.479042" />
+                            <point x="0.982222" y="0.916168" />
+                            <point x="0.52" y="0.952096" />
+                            <point x="0.0311111" y="0.952096" />
+                            <point x="0.00444444" y="0.479042" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="obstaculo" sid="845043912021486">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="608915170841699">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="465722322860946" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chao_bg" sid="784766669457785">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\rikef\Desktop\madeira.png" />
+        </object-type>
+        <object-type name="parede_bg" sid="984614184068175">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\parede2.png" />
+        </object-type>
+        <object-type name="preto" sid="871201732929093">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427043065249103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_bg" sid="752686641209674">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352521584508831" speed="7">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501048" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\capa_GAMEJAM(base)(0).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\capa_GAMEJAM(base)(1).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\capa_GAMEJAM(base)(2).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\capa_GAMEJAM(base)(3).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\capa_GAMEJAM(base)(4).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_jogar" sid="130730210263186">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="738548875103358">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596426461532409" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\jogar_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_creditos" sid="712360279096179">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="347022747067369">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="127754316139179" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\credits_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_info" sid="175070672069260">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="416985351072884">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493996729142339" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\instrucoes_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo" sid="473392204536960">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="144222555027233">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503382416766684" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\titulo_GAMEJAM.png">
+                        <collision-poly>
+                            <point x="0.048951" y="0.116279" />
+                            <point x="0.982517" y="0.855814" />
+                            <point x="0.723776" y="0.948837" />
+                            <point x="0.444056" y="0.911628" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_menu" sid="760130273812721">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="718146899108625">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="866342772714211" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_integrantes" sid="199693058926206">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="243922485895745">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996945927163159" speed="5">
+                    <frame duration="1" hotspotX="0.497872" hotspotY="0.533333" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU CREDITOS\icon_pessoas.png">
+                        <collision-poly>
+                            <point x="0.220095" y="0.190378" />
+                            <point x="0.497872" y="0.173827" />
+                            <point x="0.746099" y="0.211067" />
+                            <point x="1" y="1" />
+                            <point x="0.497872" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_voltar" sid="802581661149475">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="953412669090915">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849496550197569" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU CREDITOS\voltar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo_creditos" sid="711403377029351">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="287732930226979">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922876870573220" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU CREDITOS\icon_titulo_creditos.png">
+                        <collision-poly>
+                            <point x="0.101538" y="0.340206" />
+                            <point x="0.498462" y="0.226804" />
+                            <point x="0.901538" y="0.329897" />
+                            <point x="0.953846" y="0.494845" />
+                            <point x="0.944615" y="0.814433" />
+                            <point x="0.498462" y="0.793814" />
+                            <point x="0.0584615" y="0.804124" />
+                            <point x="0.0215385" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_teclado" sid="202232661231092">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761783359199401" speed="5">
+                    <frame duration="1" hotspotX="-0.0512821" hotspotY="1.04186" original-source="C:\Users\rikef\Desktop\controles.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.932957" y="0" />
+                            <point x="1" y="0.50405" />
+                            <point x="0.893835" y="1" />
+                            <point x="0.0038109" y="1" />
+                            <point x="0" y="0.50405" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo_info" sid="175043889497144">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="314506409776046">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491763724800696" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INICIAL\instrucoes_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_controle" sid="826371488899744">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="789146927927610">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569247859718719" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INSTRUCOES\controle_instrucoes_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_historia" sid="424545338604080">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="251886248583722">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452599795025358" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INSTRUCOES\historia_instrucoes_GAMEJAM.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.010582" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo_historia" sid="651957326170209">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="308991030441306">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921870703163039" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU INSTRUCOES\historia_instrucoes_GAMEJAM.png">
+                        <collision-poly>
+                            <point x="0.444445" y="0.245901" />
+                            <point x="0.47619" y="0.114754" />
+                            <point x="0.248677" y="0.606557" />
+                            <point x="0.449735" y="0.114754" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_historia_text" sid="561395919106011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524234101304000" speed="5">
+                    <frame duration="1" hotspotX="0.501124" hotspotY="0.5" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\conteudo_historia.png">
+                        <collision-poly>
+                            <point x="0.116854" y="0.346667" />
+                            <point x="0.498876" y="0.0466667" />
+                            <point x="0.862921" y="0.406667" />
+                            <point x="0.905618" y="0.72" />
+                            <point x="0.498876" y="0.94" />
+                            <point x="0.193258" y="0.426667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_creditos" sid="831162186621431">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="499671194496156">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690287306222039" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_menu2" sid="109981033145071">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="253825622455861">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634639270294283" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_historia" sid="291330528163890">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="813088580284630">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341314002512299" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo_controles" sid="659010673834136">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="353560033370442">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689889573892486" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU CONTROLES\titulo_controle.png">
+                        <collision-poly>
+                            <point x="0" y="0.796633" />
+                            <point x="0" y="1" />
+                            <point x="0.906666" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.9497" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_controles" sid="853310794439552">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="845979178146709">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878528927806467" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_voltar2" sid="480076548886202">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="907630275663411">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189536798852217" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU CREDITOS\voltar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="parede" sid="899913257697842">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="233920292631150" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_L1" sid="358650962159889">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="624070944312585">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217992862131741" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Detetive1_anim" sid="476673110228849">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="889013440709016">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="paradoN" pingpong="0" repeatcount="1" repeatto="0" sid="570582862932475" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\parado\2.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="paradoC" pingpong="0" repeatcount="1" repeatto="0" sid="212894817115193" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\parado\1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="paradoB" pingpong="0" repeatcount="1" repeatto="0" sid="934492296366034" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\parado\3.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="AndandoCima" pingpong="0" repeatcount="1" repeatto="0" sid="440788819008805" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\2.png" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\3.png" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_costa\6.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="Andando" pingpong="0" repeatcount="1" repeatto="0" sid="706447637387176" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\1.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\2.png" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_esquerda\6.png" />
+                </animation>
+                <animation framecount="6" loop="1" name="AndandoBaixo" pingpong="0" repeatcount="1" repeatto="0" sid="750071093663430" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\correndo_frente\6.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="PegandoItemChao" pingpong="0" repeatcount="1" repeatto="0" sid="832161234480009" speed="10">
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\pegar item chao\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\pegar item chao\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.466667" hotspotY="0.988372" />
+                </animation>
+                <animation framecount="5" loop="0" name="PegandoItemCima" pingpong="0" repeatcount="1" repeatto="0" sid="191984907053136" speed="10">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\pegar item em cima\1.png" />
+                    <frame duration="1" hotspotX="0.508772" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\detetives\pegar item em cima\2.png" />
+                    <frame duration="1" hotspotX="0.508772" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+                <animation framecount="17" loop="0" name="Confuso" pingpong="0" repeatcount="1" repeatto="0" sid="745328374862955" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\1.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\6.png" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\9.png" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\10.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\12.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\detetives\confuso\13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" />
+                    <frame duration="1" hotspotX="0.513514" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cord" sid="368021376249713">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790321862154972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause_bg" sid="607756795904933">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670012839991318" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_titulo_pause" sid="609568421833443">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="336443674813466">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856093691525899" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU PAUSE\pause_GAMEJAM.png">
+                        <collision-poly>
+                            <point x="0.393617" y="0.302632" />
+                            <point x="0.734043" y="0.565789" />
+                            <point x="0.393617" y="0.565789" />
+                            <point x="0.0212766" y="0.644737" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_continuar_pause" sid="774880881567656">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="254292956199225">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="475754559727419" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU PAUSE\continuar_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_sair_pause" sid="290758549294620">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="265646806895707">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="830017201637520" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\capa_GAMEJAM\MENU PAUSE\sair_GAMEJAM.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_sala" sid="830975684338519">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="223291542623258">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915296010875090" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_L2" sid="148105782634414">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="923440392316503">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367918910907040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_banheiro" sid="992905024835139">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="318260178824683">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427532185588921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_porao" sid="625664728605379">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="936637844792101">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505701867526647" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldA1" sid="896226577838488">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="505040885448986" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="642315539280967" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\2\item1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.462904" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.48538" />
+                            <point x="1" y="1" />
+                            <point x="0.462904" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.48538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldA2" sid="354607435556823">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="626346643155038" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura2.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="438371446904965" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\2\item2.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.435" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.435" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldB1" sid="558965159320853">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="895674978292703" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="605699371603449" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\2\item1.png">
+                        <collision-poly>
+                            <point x="0.0621762" y="0.0175439" />
+                            <point x="0.849741" y="0.0643275" />
+                            <point x="0.963731" y="0.48538" />
+                            <point x="0.911917" y="0.976608" />
+                            <point x="0.0673575" y="0.947368" />
+                            <point x="0.0259067" y="0.48538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldB2" sid="569433798131001">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="124583083307355" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura2.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="208738390605074" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\2\item2.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.0632184" />
+                            <point x="0.492063" y="0.0632184" />
+                            <point x="0.915344" y="0.0172414" />
+                            <point x="0.984127" y="0.477012" />
+                            <point x="0.904762" y="0.925287" />
+                            <point x="0.492063" y="0.95977" />
+                            <point x="0.0634921" y="0.942529" />
+                            <point x="0.026455" y="0.477012" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldB3" sid="931841712701242">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="408090788384634" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura3.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="806673442941502" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\3\item3.png">
+                        <collision-poly>
+                            <point x="0.0621762" y="0.0175439" />
+                            <point x="0.849741" y="0.0643275" />
+                            <point x="0.963731" y="0.48538" />
+                            <point x="0.911917" y="0.976608" />
+                            <point x="0.0673575" y="0.947368" />
+                            <point x="0.0259067" y="0.48538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldC1" sid="801800568631543">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="219493114509346" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="857561259198856" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\4\item1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.442632" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.442632" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldC2" sid="862053307249902">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="741540065930838" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura2.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="581058337113602" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\4\item2.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.0632184" />
+                            <point x="0.492063" y="0.0632184" />
+                            <point x="0.915344" y="0.0172414" />
+                            <point x="0.984127" y="0.477012" />
+                            <point x="0.904762" y="0.925287" />
+                            <point x="0.492063" y="0.95977" />
+                            <point x="0.0634921" y="0.942529" />
+                            <point x="0.026455" y="0.477012" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldC3" sid="668609094781196">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="vazio" pingpong="0" repeatcount="1" repeatto="0" sid="585236644424420" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\moldura3.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="item" pingpong="0" repeatcount="1" repeatto="0" sid="142823175303276" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="F:\GameJam\sprites(game jam)\HUD\4\item3.png">
+                        <collision-poly>
+                            <point x="0.0621762" y="0.0175439" />
+                            <point x="0.849741" y="0.0643275" />
+                            <point x="0.963731" y="0.48538" />
+                            <point x="0.911917" y="0.976608" />
+                            <point x="0.0673575" y="0.947368" />
+                            <point x="0.0259067" y="0.48538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="casa" sid="273453230744295">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="623660682936456">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="439064733975156" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\julia\Desktop\casa.png">
+                        <collision-poly>
+                            <point x="0.997264" y="0.613208" />
+                            <point x="0.689466" y="0.896226" />
+                            <point x="0.402189" y="1" />
+                            <point x="0.248974" y="0.870283" />
+                            <point x="0.29959" y="0.838444" />
+                            <point x="0.388509" y="0.759434" />
+                            <point x="0.399453" y="0.601415" />
+                            <point x="0.755814" y="0.176887" />
+                            <point x="0.939808" y="0.337264" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadro1" sid="654014836067631">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873102346018411" speed="5">
+                    <frame duration="1" hotspotX="0.503597" hotspotY="0.5" original-source="C:\Users\julia\Desktop\quadro1.png">
+                        <collision-poly>
+                            <point x="0.0935252" y="0.0294118" />
+                            <point x="0.971223" y="0.0392157" />
+                            <point x="0.913669" y="0.931373" />
+                            <point x="0.496403" y="0.95098" />
+                            <point x="0.057554" y="0.921569" />
+                            <point x="0.057554" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sofa" sid="129897843165457">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="378231780333062">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="143661478251113" speed="5">
+                    <frame duration="1" hotspotX="0.647399" hotspotY="1.16098" original-source="C:\Users\julia\Desktop\sofa.png">
+                        <collision-poly>
+                            <point x="0.0404632" y="0.97561" />
+                            <point x="0.00578048" y="0.446341" />
+                            <point x="0.647399" y="0.0146341" />
+                            <point x="0.942197" y="0.0780488" />
+                            <point x="0.962427" y="0.353658" />
+                            <point x="0.497111" y="0.941464" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadro_flor" sid="921184227071410">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751483163771636" speed="5">
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\julia\Desktop\quadro_flor1.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.142857" />
+                            <point x="0.493506" y="0.0204082" />
+                            <point x="0.87013" y="0.102041" />
+                            <point x="0.961039" y="0.5" />
+                            <point x="0.805195" y="0.846939" />
+                            <point x="0.493506" y="0.989796" />
+                            <point x="0.142857" y="0.887755" />
+                            <point x="0.025974" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadro_flor2" sid="280085428561292">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563779202840054" speed="5">
+                    <frame duration="1" hotspotX="0.513158" hotspotY="0.5" original-source="C:\Users\julia\Desktop\quadro_flor2.png">
+                        <collision-poly>
+                            <point x="0.184211" y="0.142857" />
+                            <point x="0.5" y="0.0204082" />
+                            <point x="0.881579" y="0.102041" />
+                            <point x="0.973684" y="0.5" />
+                            <point x="0.815789" y="0.846939" />
+                            <point x="0.5" y="0.989796" />
+                            <point x="0.144737" y="0.887755" />
+                            <point x="0.0263158" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadro_flor3" sid="537984657268895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531818625677175" speed="5">
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\julia\Desktop\quadro_flor3.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.142857" />
+                            <point x="0.493506" y="0.0204082" />
+                            <point x="0.87013" y="0.102041" />
+                            <point x="0.961039" y="0.5" />
+                            <point x="0.805195" y="0.846939" />
+                            <point x="0.493506" y="0.989796" />
+                            <point x="0.142857" y="0.887755" />
+                            <point x="0.025974" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="banheira2" sid="320836819466032">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858688864549681" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.380952" original-source="C:\Users\julia\Desktop\banheira2.png">
+                        <collision-poly>
+                            <point x="0.409091" y="0.0190476" />
+                            <point x="0.590909" y="0.0190476" />
+                            <point x="0.939394" y="0.380952" />
+                            <point x="0.984848" y="0.990476" />
+                            <point x="0.0151515" y="0.990476" />
+                            <point x="0.0606061" y="0.380952" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bloco" sid="967383255411220">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="bloco" pingpong="0" repeatcount="1" repeatto="0" sid="842191577090331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502825" original-source="E:\bloco.png">
+                        <collision-poly>
+                            <point x="0" y="0.0687542" />
+                            <point x="0.391975" y="0.0495068" />
+                            <point x="0.989255" y="0.12008" />
+                            <point x="1" y="0.53069" />
+                            <point x="1" y="1" />
+                            <point x="0.391975" y="1" />
+                            <point x="0" y="0.960548" />
+                            <point x="0" y="0.53069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="bloco1" pingpong="0" repeatcount="1" repeatto="0" sid="553295541679038" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502825" original-source="E:\bloco1.png">
+                        <collision-poly>
+                            <point x="0" y="0.0687542" />
+                            <point x="0.391975" y="0.0495068" />
+                            <point x="0.989255" y="0.12008" />
+                            <point x="1" y="0.53069" />
+                            <point x="1" y="1" />
+                            <point x="0.391975" y="1" />
+                            <point x="0" y="0.960548" />
+                            <point x="0" y="0.53069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="bloco2" pingpong="0" repeatcount="1" repeatto="0" sid="523640389892011" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502825" original-source="E:\bloco2.png">
+                        <collision-poly>
+                            <point x="0" y="0.0687542" />
+                            <point x="0.391975" y="0.0495068" />
+                            <point x="0.989255" y="0.12008" />
+                            <point x="1" y="0.53069" />
+                            <point x="1" y="1" />
+                            <point x="0.391975" y="1" />
+                            <point x="0" y="0.960548" />
+                            <point x="0" y="0.53069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="bloco3" pingpong="0" repeatcount="1" repeatto="0" sid="837818911815449" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502825" original-source="E:\bloco3.png">
+                        <collision-poly>
+                            <point x="0" y="0.0687542" />
+                            <point x="0.391975" y="0.0495068" />
+                            <point x="0.989255" y="0.12008" />
+                            <point x="1" y="0.53069" />
+                            <point x="1" y="1" />
+                            <point x="0.391975" y="1" />
+                            <point x="0" y="0.960548" />
+                            <point x="0" y="0.53069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="borda_parede_V" sid="798545553424313">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="733815144180280">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="E:\borda_parede.png" />
+        </object-type>
+        <object-type name="borda_parede_H" sid="672295299016699">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="315053061034782">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="E:\borda_parede.png" />
+        </object-type>
+        <object-type name="quadros" sid="606214501564525">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732255358368303" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="C:\Users\rikef\Desktop\quadros.png">
+                        <collision-poly>
+                            <point x="0.0705882" y="0.0705882" />
+                            <point x="0.494118" y="0.0352941" />
+                            <point x="0.976471" y="0.0235294" />
+                            <point x="0.964706" y="0.494118" />
+                            <point x="0.929412" y="0.929412" />
+                            <point x="0.494118" y="0.976471" />
+                            <point x="0.0235294" y="0.976471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadros2" sid="897606361522671">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="763720937627739" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.505882" original-source="C:\Users\rikef\Desktop\quadros2.png">
+                        <collision-poly>
+                            <point x="0.0705882" y="0.0705882" />
+                            <point x="0.494118" y="0.0352941" />
+                            <point x="0.976471" y="0.0235294" />
+                            <point x="0.964706" y="0.494118" />
+                            <point x="0.929412" y="0.929412" />
+                            <point x="0.494118" y="0.976471" />
+                            <point x="0.0235294" y="0.976471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="banheira1" sid="659159798202214">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282223640443264" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.380952" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\objetos\banheira1.png">
+                        <collision-poly>
+                            <point x="0.409091" y="0.0190476" />
+                            <point x="0.590909" y="0.0190476" />
+                            <point x="0.939394" y="0.380952" />
+                            <point x="0.984848" y="0.990476" />
+                            <point x="0.0151515" y="0.990476" />
+                            <point x="0.0606061" y="0.380952" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadros3" sid="513806613204659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="304891737463785" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\rikef\Desktop\quadros3.png">
+                        <collision-poly>
+                            <point x="0.0705882" y="0.0714286" />
+                            <point x="0.494118" y="0.0238095" />
+                            <point x="0.988235" y="0.0119048" />
+                            <point x="0.929412" y="0.928571" />
+                            <point x="0.494118" y="0.97619" />
+                            <point x="0.0235294" y="0.97619" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="caixa2" sid="971815877059929">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="356592633322168">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454588069667419" speed="5">
+                    <frame duration="1" hotspotX="0.503759" hotspotY="0.56" original-source="C:\Users\rikef\Desktop\caixa2.png">
+                        <collision-poly>
+                            <point x="0.157895" y="0.21" />
+                            <point x="0.503759" y="0.02" />
+                            <point x="0.909774" y="0.13" />
+                            <point x="0.857143" y="0.55" />
+                            <point x="0.759399" y="0.78" />
+                            <point x="0.503759" y="0.97" />
+                            <point x="0.112782" y="0.96" />
+                            <point x="0.112782" y="0.55" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="caixa3" sid="718388823891684">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="515800500800628">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="436432819602689" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rikef\Desktop\caixa3.png">
+                        <collision-poly>
+                            <point x="0.180328" y="0.2" />
+                            <point x="0.5" y="0.0545455" />
+                            <point x="0.95082" y="0.0545455" />
+                            <point x="0.934426" y="0.5" />
+                            <point x="0.860656" y="0.845455" />
+                            <point x="0.5" y="0.954545" />
+                            <point x="0.0409836" y="0.954545" />
+                            <point x="0.0983607" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="caixa4" sid="795625743544678">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="175593010356493">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775768084065498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rikef\Desktop\caixa1.png">
+                        <collision-poly>
+                            <point x="0.209091" y="0.205357" />
+                            <point x="0.5" y="0.0267857" />
+                            <point x="0.9" y="0.0982143" />
+                            <point x="0.963636" y="0.5" />
+                            <point x="0.854545" y="0.857143" />
+                            <point x="0.5" y="0.964286" />
+                            <point x="0.00909091" y="0.991071" />
+                            <point x="0.0727273" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="caixa5" sid="555347689824976">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="462598451127613">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474756411313037" speed="5">
+                    <frame duration="1" hotspotX="0.503759" hotspotY="0.56" original-source="C:\Users\rikef\Desktop\caixa2.png">
+                        <collision-poly>
+                            <point x="0.157895" y="0.21" />
+                            <point x="0.503759" y="0.02" />
+                            <point x="0.909774" y="0.13" />
+                            <point x="0.857143" y="0.55" />
+                            <point x="0.759399" y="0.78" />
+                            <point x="0.503759" y="0.97" />
+                            <point x="0.112782" y="0.96" />
+                            <point x="0.112782" y="0.55" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="televisao" sid="260879454625608">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="169876473769892">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="997823459402156" speed="10">
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\TV.png">
+                        <collision-poly>
+                            <point x="0.90799" y="0.519461" />
+                            <point x="0.912833" y="0.967066" />
+                            <point x="0.498789" y="0.980539" />
+                            <point x="0.1477" y="0.964072" />
+                            <point x="0" y="0.786677" />
+                            <point x="0.0387409" y="0.477545" />
+                            <point x="0.152542" y="0.11976" />
+                            <point x="0.498789" y="0.116766" />
+                            <point x="0.813559" y="0.139222" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\TV2.png">
+                        <collision-poly>
+                            <point x="0.782082" y="0.477545" />
+                            <point x="0.922518" y="0.883234" />
+                            <point x="0.498789" y="0.980539" />
+                            <point x="0.0799031" y="0.88024" />
+                            <point x="0.0387409" y="0.477545" />
+                            <point x="0.152542" y="0.11976" />
+                            <point x="0.498789" y="0.116766" />
+                            <point x="0.813559" y="0.139222" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\TV3.png">
+                        <collision-poly>
+                            <point x="0.782082" y="0.477545" />
+                            <point x="0.922518" y="0.883234" />
+                            <point x="0.498789" y="0.980539" />
+                            <point x="0.0799031" y="0.88024" />
+                            <point x="0.0387409" y="0.477545" />
+                            <point x="0.152542" y="0.11976" />
+                            <point x="0.498789" y="0.116766" />
+                            <point x="0.813559" y="0.139222" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tele" sid="298260118736758">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="587104125236739">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913685020337309" speed="10">
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\ligada1.png">
+                        <collision-poly>
+                            <point x="0.903148" y="0.976048" />
+                            <point x="0.154964" y="0.97006" />
+                            <point x="0" y="0.760478" />
+                            <point x="0.0369248" y="0.413174" />
+                            <point x="0.141646" y="0.125749" />
+                            <point x="1" y="0.131736" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\ligada2.png">
+                        <collision-poly>
+                            <point x="0.903148" y="0.976048" />
+                            <point x="0.154964" y="0.97006" />
+                            <point x="0.125908" y="0.520958" />
+                            <point x="0.131961" y="0.00598802" />
+                            <point x="0.98063" y="0.251497" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\ligada3.png">
+                        <collision-poly>
+                            <point x="0.903148" y="0.976048" />
+                            <point x="0.154964" y="0.97006" />
+                            <point x="0.125908" y="0.520958" />
+                            <point x="0.131961" y="0.00598802" />
+                            <point x="0.98063" y="0.251497" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498789" hotspotY="0.477545" original-source="D:\GJ\TV\ligada4.png">
+                        <collision-poly>
+                            <point x="0.903148" y="0.976048" />
+                            <point x="0.154964" y="0.97006" />
+                            <point x="0.125908" y="0.520958" />
+                            <point x="0.131961" y="0.00598802" />
+                            <point x="0.98063" y="0.251497" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="candelabro" sid="277429234361757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837911145732433" speed="5">
+                    <frame duration="1" hotspotX="0.470588" hotspotY="0.495575" original-source="E:\Jason\Extra\Cenário\lustres-e-pendentes-classico.png">
+                        <collision-poly>
+                            <point x="0" y="0.164842" />
+                            <point x="0.457775" y="0" />
+                            <point x="1" y="0.164842" />
+                            <point x="1" y="0.769612" />
+                            <point x="0.457775" y="1" />
+                            <point x="0" y="0.769612" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="livros" sid="376604652395509">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260180769126217" speed="5">
+                    <frame duration="1" hotspotX="0.490706" hotspotY="0.50578" original-source="E:\Jason\Extra\Cenário\livros.png">
+                        <collision-poly>
+                            <point x="0.0650558" y="0.202312" />
+                            <point x="0.490706" y="0.410405" />
+                            <point x="0.947955" y="0.153179" />
+                            <point x="0.962825" y="0.881503" />
+                            <point x="0.490706" y="0.99711" />
+                            <point x="0.0557621" y="0.823699" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="456288111708904">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="648427062150023">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="685111430685402" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="1" original-source="C:\Users\rikef\Desktop\GameJam\sprites(game jam)\objetos\armario,vaso,flor\vaso.png">
+                        <collision-poly>
+                            <point x="0.551021" y="0.876405" />
+                            <point x="0.938775" y="1" />
+                            <point x="0.142857" y="0.977528" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vaso1" sid="364653533308900">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488088146449108" speed="5">
+                    <frame duration="1" hotspotX="0.497835" hotspotY="0.5" original-source="C:\Users\rikef\Desktop\Jason\Extra\Cenário\vaso de flor.png">
+                        <collision-poly>
+                            <point x="0.147186" y="0.115132" />
+                            <point x="0.497835" y="0.0230263" />
+                            <point x="0.852814" y="0.111842" />
+                            <point x="0.701299" y="0.5" />
+                            <point x="0.779221" y="0.832237" />
+                            <point x="0.497835" y="0.996711" />
+                            <point x="0.242424" y="0.8125" />
+                            <point x="0.290043" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo" sid="417053218276448">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706421354279825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501109" original-source="E:\GameJam\sprites(game jam)\objetos\fundo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo2" sid="552930463190130">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831330738041048" speed="5">
+                    <frame duration="1" hotspotX="0.701075" hotspotY="0.501109" original-source="E:\GameJam\sprites(game jam)\objetos\fundo.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="grama" sid="449104783137610">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="632055712661001">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="E:\GameJam\sprites(game jam)\objetos\chao.png" />
+        </object-type>
+        <object-type name="preto2" sid="935691850164415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258516229177915" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moldura_camera" sid="522704278649186">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768765383513917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.494152" original-source="E:\GameJam\Imgs da Camera\moldura_camera.png">
+                        <collision-poly>
+                            <point x="0.174518" y="0.0497076" />
+                            <point x="0.5" y="0.00292398" />
+                            <point x="0.82227" y="0.0540936" />
+                            <point x="0.996788" y="0.494152" />
+                            <point x="0.828694" y="0.942982" />
+                            <point x="0.5" y="0.991228" />
+                            <point x="0.172377" y="0.94152" />
+                            <point x="0.00214133" y="0.494152" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="foto" sid="125980861200094">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="foto1" pingpong="0" repeatcount="1" repeatto="0" sid="122835114176926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameJam\Imgs da Camera\foto 1-camera.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="foto2" pingpong="0" repeatcount="1" repeatto="0" sid="694372356844881" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameJam\Imgs da Camera\foto 2-camera.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="foto3" pingpong="0" repeatcount="1" repeatto="0" sid="920884025532217" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameJam\Imgs da Camera\foto 3-camera.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="foto4" pingpong="0" repeatcount="1" repeatto="0" sid="353131312363331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\GameJam\Imgs da Camera\foto 4-camera.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="barra_preta" sid="501419806150272">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434901293654393" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="seta_direita" sid="245236040434453">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145922663040910" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.45" original-source="E:\GameJam\Imgs da Camera\seta direita.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="seta_esquerda" sid="653945769935977">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238171326746625" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.45" original-source="E:\GameJam\Imgs da Camera\seta esquerda.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="x_camera" sid="154685459654356">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440080262001064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.46875" original-source="E:\GameJam\Imgs da Camera\back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fim_bg" sid="477463870015067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="908498682329392" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_venceu" sid="218369761260222">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="969557694520619">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695248738942883" speed="5">
+                    <frame duration="1" hotspotX="0.723776" hotspotY="0.785965" original-source="D:\GJ\MENU VENCEU\venceu.png">
+                        <collision-poly>
+                            <point x="0.048951" y="0.0877193" />
+                            <point x="0.982517" y="0.645614" />
+                            <point x="0.723776" y="0.954386" />
+                            <point x="0.321678" y="0.933333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="icon_menu" sid="978448378006472">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="867310811147472">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995890851886898" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="D:\GJ\MENU VENCEU\botao menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fade_fim" sid="112649644347031">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="618380931134706">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="651646373763786" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="802636746410761">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Gatilho_TV" sid="934244772503387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387078069931856" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>1_L.xml</layout>
+        <layout>2_L.xml</layout>
+        <layout>Sala_L_1.xml</layout>
+        <layout>Sala_L_2.xml</layout>
+        <layout>Banheiro_L_2.xml</layout>
+        <layout>Sala_L_3.xml</layout>
+        <layout>Banheiro_L_3.xml</layout>
+        <layout>Porão_L_3.xml</layout>
+        <layout>Sala_L_4.xml</layout>
+        <layout>Banheiro_L_4.xml</layout>
+        <layout>Porão_L_4.xml</layout>
+        <layout>F_Menu_L.xml</layout>
+        <layout>F_Fim_L.xml</layout>
+        <layout>F_Creditos_L.xml</layout>
+        <layout>F_Menu2_L.xml</layout>
+        <layout>F_Historia_L.xml</layout>
+        <layout>F_Controles_L.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>1_ES.xml</event-sheet>
+        <event-sheet>Detetive_ES_L1.xml</event-sheet>
+        <event-sheet>Detetive_ES_L2.xml</event-sheet>
+        <event-sheet>2_ES.xml</event-sheet>
+        <event-sheet>Banheiro_ES.xml</event-sheet>
+        <event-sheet>Sala_ES.xml</event-sheet>
+        <event-sheet>Porão_ES.xml</event-sheet>
+        <event-sheet>Variaveis.xml</event-sheet>
+        <event-sheet>F_Menu_ES.xml</event-sheet>
+        <event-sheet>F_Fim_ES.xml</event-sheet>
+        <event-sheet>F_Creditos_ES.xml</event-sheet>
+        <event-sheet>F_Menu2_ES.xml</event-sheet>
+        <event-sheet>F_Historia_ES.xml</event-sheet>
+        <event-sheet>F_Controles_ES.xml</event-sheet>
+        <event-sheet>TESTE.xml</event-sheet>
+        <event-sheet>Pause_ES.xml</event-sheet>
+        <event-sheet>HUD_ES.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="17" />
+        <global-instance type="Keyboard" uid="18" />
+        <global-instance type="Audio" uid="437">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="Alex_Mason_-_06_-_Lost_Planet.ogg" />
+        <file name="Campainha.ogg" />
+        <file name="Cortina.ogg" />
+        <file name="coçando.ogg" />
+        <file name="Desentupidor.ogg" />
+        <file name="DestrancarPorta.ogg" />
+        <file name="Kevin_MacLeod_-_Gagool.ogg" />
+        <file name="Passos.ogg" />
+        <file name="Pegar_Item.ogg" />
+        <file name="Rangido.ogg" />
+        <file name="Ratos.ogg" />
+        <file name="suspiro.ogg" />
+        <file name="TAN.ogg" />
+        <file name="TV_Estática.ogg" />
+        <file name="coçando (mp3cut.net).ogg" />
+        <file name="Desentupidor (mp3cut.net).ogg" />
+        <file name="suspiro (mp3cut.net).ogg" />
+        <file name="ambiente2.ogg" />
+        <file name="lapis (online-audio-converter.com).ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

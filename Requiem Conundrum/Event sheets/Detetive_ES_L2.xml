@@ -1,0 +1,1771 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Detetive_ES_L2</name>
+    <events>
+        <event-group description="" sid="554275084968284" title="Detetive2">
+            <sub-events>
+                <event-group description="" sid="207527924127425" title="Pegar_D2">
+                    <sub-events>
+                        <event-block sid="428119812315196">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="652044875544552" type="Detetive1_anim">
+                                    <param id="0" name="Object">faca</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="743258888611872">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="490977491224015" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="925896614231429" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemChao&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="169077431706897" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="566317987577714" type="faca" />
+                                        <action id="-9" name="Set value" sid="467326039086381" type="System">
+                                            <param id="0" name="Variable">Pegou_Faca</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="468394538590033">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="454580965467632" type="Detetive1_anim">
+                                    <param id="0" name="Object">chave_banheiro</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="366880546062045">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="689572209468388" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="874581915743830" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemChao&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="766819297000264" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="564379822472983" type="chave_banheiro" />
+                                        <action id="-9" name="Set value" sid="402906546242992" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="814411181691389">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="685915735548070" type="Detetive1_anim">
+                                    <param id="0" name="Object">chave_porao</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="719248476314551">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="839170267958936" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="992052419512281" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemChao&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="532412316164320" type="Audio">
+                                            <param id="0" name="Audio file">Desentupidor (mp3cut.net)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Desentope&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="820894203651552" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="295682820461695" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="997875250631574" type="chave_porao" />
+                                        <action id="-9" name="Set value" sid="715805385343517" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="774229199742338">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="863944266165537" type="Detetive1_anim">
+                                    <param id="0" name="Object">corda</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="361334194449909">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="462450921550117" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="776120271133408" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemCima&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="501444622694238" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="369687831805807" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="492831267731085" type="morto_porao">
+                                            <param id="0" name="Animation">&quot;caiu&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="357985737100680" type="corda" />
+                                        <action id="-9" name="Set value" sid="598449235933806" type="System">
+                                            <param id="0" name="Variable">Pegou_Corda</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="891042105405624">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="772435473607935" type="Detetive1_anim">
+                                    <param id="0" name="Object">desentupidor</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="391734881749810" type="System">
+                                    <param id="0" name="Variable">Cenario_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="760327037507250">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="214019319081066" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="442923891814738" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemCima&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="492768953939664" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="956782843973684" type="desentupidor" />
+                                        <action id="-9" name="Set value" sid="249194668768068" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="398068306401535">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="819871532739622" type="Detetive1_anim">
+                                    <param id="0" name="Object">desentupidor</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="114241388981537" type="System">
+                                    <param id="0" name="Variable">Cenario_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="441812829215730">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="320805024581816" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="792113264740583" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemCima&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="393822443924308" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="131533088641220" type="desentupidor" />
+                                        <action id="-9" name="Set value" sid="589267349281311" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="295157740707681">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="422998442815031" type="Detetive1_anim">
+                                    <param id="0" name="Object">soda</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="954496973290206">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="822956026020880" type="Keyboard">
+                                            <param id="0" name="Key">49</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="556115559071601" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="513537858266750" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemChao&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="122128637825384" type="Audio">
+                                            <param id="0" name="Audio file">Desentupidor (mp3cut.net)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Desentope&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="579701330690275" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="263406345209517" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="199086954604161" type="soda" />
+                                        <action id="-9" name="Set value" sid="870486528118768" type="System">
+                                            <param id="0" name="Variable">Pegou_Soda</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="256391031148819">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="552025325225963" type="Detetive1_anim">
+                                    <param id="0" name="Object">camera</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="170188534110723">
+                                    <conditions>
+                                        <condition id="0" name="On key pressed" sid="356871781327271" type="Keyboard">
+                                            <param id="0" name="Key">69</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="232508874091173" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;PegandoItemCima&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="418789172546772" type="Audio">
+                                            <param id="0" name="Audio file">Pegar_Item</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Coletando&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="651631842828295" type="camera" />
+                                        <action id="-9" name="Set value" sid="739363099887774" type="System">
+                                            <param id="0" name="Variable">Pegou_Camera</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="313097782433107" title="Movimentação_D2">
+                    <sub-events>
+                        <event-block sid="267445934740219">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="206844987592935" type="Detetive2" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="474920905448973">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="848050374599378" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;esquerda&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="769436261315326" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;parado&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="470318259036344" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;paradoN&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="656749979499949" type="Detetive1_anim">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="172670057563787">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="352634180383130" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;direita&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="228852989318926" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;parado&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="112020226063027" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;paradoN&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="107948601285034" type="Detetive1_anim">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="576088229845577">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="492183576078681" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;cima&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="135876662586593" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;parado&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="246953575277117" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;paradoC&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="101685966133723" type="Detetive1_anim">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="503795536580188">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="301808240682301" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;baixo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="511342268683017" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;parado&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="761181985236211" type="Detetive1_anim">
+                                            <param id="0" name="Animation">&quot;paradoB&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="7" name="Set mirrored" sid="191573127577649" type="Detetive1_anim">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="383125428227658">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="250654336419462" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="479237083895028" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;Andando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="487130278185445" type="Detetive1_anim">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="923843610269779">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="975041586102235" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="420976126893759" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="767134727956067" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="777337736011370" type="Detetive2">
+                                            <param id="0" name="Control">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="743906611470750" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;esquerda&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="115998111366031">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="810461893939544" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="792724334108039" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;Andando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="800160952424416" type="Detetive1_anim">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="194186538838764">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="865662176417550" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="651847302839398" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="189009952609150" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="744377494351246" type="Detetive2">
+                                            <param id="0" name="Control">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="984894708341046" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;esquerda&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="642410767610698">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="984437235438491" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="784258518426726" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;Andando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="464480677337039" type="Detetive1_anim">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="756526812665581">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="576673611872362" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="183294277004034" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="370026229825976" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="190706136991046" type="Detetive2">
+                                            <param id="0" name="Control">1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="338073703189370" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;direita&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="127585052248294">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="479572124803825" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="277915024937721" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;Andando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="317871030009941" type="Detetive1_anim">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="192321268830914">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="172761937454343" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="900074988165968" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="335288243290418" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="312239598885785" type="Detetive2">
+                                            <param id="0" name="Control">1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="828046967487236" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;direita&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="862175124298308">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="697996270542437" type="Keyboard">
+                                    <param id="0" name="Key">38</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="847091064684400" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;AndandoCima&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="912202941642632">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="460731093564255" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="469397968031487" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="266233662556140" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="551925198013140" type="Detetive2">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="606942045899555" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;cima&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="899269691808669">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="909185189301339" type="Keyboard">
+                                    <param id="0" name="Key">38</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="263909241280896" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;AndandoCima&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="509961567877250">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="316765126309857" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="871275746748635" type="Keyboard">
+                                            <param id="0" name="Key">40</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="566791623322305" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="459586475830315" type="Detetive2">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="815187828383644" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;cima&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="898594553021347">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="689000310486082" type="Keyboard">
+                                    <param id="0" name="Key">40</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="294551606067241" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;AndandoBaixo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="117414651689107">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="484403423992287" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="487350737990663" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="913283511985118" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="829561248867082" type="Detetive2">
+                                            <param id="0" name="Control">3</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="869593305181815" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;baixo&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="202916981082646">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="871981066465493" type="Keyboard">
+                                    <param id="0" name="Key">40</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="933504215814883" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;AndandoBaixo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="307328809619881">
+                                    <conditions>
+                                        <condition id="2" inverted="1" name="Key is down" sid="616119964229306" type="Keyboard">
+                                            <param id="0" name="Key">37</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="127174848505803" type="Keyboard">
+                                            <param id="0" name="Key">39</param>
+                                        </condition>
+                                        <condition id="2" inverted="1" name="Key is down" sid="882486170135814" type="Keyboard">
+                                            <param id="0" name="Key">38</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="168420028179007" type="Detetive2">
+                                            <param id="0" name="Control">3</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="211270721491359" type="Detetive2">
+                                            <param id="0" name="Instance variable">direção</param>
+                                            <param id="1" name="Value">&quot;baixo&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="647821257191317" title="Colisão_D2">
+                    <sub-events>
+                        <event-block sid="966855018762144">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="867002710516997" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_E_1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="641333577415167">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="464243010976594" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="557800228657632">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="746439696464319" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="100031402408219">
+                                                    <conditions>
+                                                        <condition id="0" name="On key pressed" sid="740108445214837" type="Keyboard">
+                                                            <param id="0" name="Key">50</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="935110775310387" type="Audio">
+                                                            <param id="0" name="Audio file">DestrancarPorta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="261263558799786" type="System">
+                                                            <param id="0" name="Seconds">0.3</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="756008891435320" type="Audio">
+                                                            <param id="0" name="Audio file">Rangido</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                                        </action>
+                                                        <action id="-2" name="Go to layout" sid="919431008622578" type="System">
+                                                            <param id="0" name="Layout">Banheiro_L_2</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="827163271917292" type="System">
+                                                            <param id="0" name="Variable">Porta_ID</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="963845890158706">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="260967481179799" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="593147911082097">
+                                                    <conditions>
+                                                        <condition id="0" name="On key pressed" sid="911654469904050" type="Keyboard">
+                                                            <param id="0" name="Key">50</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="372766178569203" type="Audio">
+                                                            <param id="0" name="Audio file">DestrancarPorta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="697135594579429" type="System">
+                                                            <param id="0" name="Seconds">0.3</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="763049751766062" type="Audio">
+                                                            <param id="0" name="Audio file">Rangido</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                                        </action>
+                                                        <action id="-2" name="Go to layout" sid="948485149871146" type="System">
+                                                            <param id="0" name="Layout">Banheiro_L_3</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="655810023761853" type="System">
+                                                            <param id="0" name="Variable">Porta_ID</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="464313666390194">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="820260070077419" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">4</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="469374371078751">
+                                                    <conditions>
+                                                        <condition id="0" name="On key pressed" sid="285630681465799" type="Keyboard">
+                                                            <param id="0" name="Key">49</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="562869855011310" type="Audio">
+                                                            <param id="0" name="Audio file">DestrancarPorta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="848226626515142" type="System">
+                                                            <param id="0" name="Seconds">0.3</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="911744144471011" type="Audio">
+                                                            <param id="0" name="Audio file">Rangido</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                                        </action>
+                                                        <action id="-2" name="Go to layout" sid="144865029615422" type="System">
+                                                            <param id="0" name="Layout">Banheiro_L_4</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="639198495289011" type="System">
+                                                            <param id="0" name="Variable">Porta_ID</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="899788223230301">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="249643098437748" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_E_2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="106021509730004">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="468504085437131" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="722978067304377" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="222420477162992" type="System">
+                                            <param id="0" name="Layout">Sala_L_1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="789373978897855" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="626601057571168">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="295811783828605" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="807023969011745" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="603947852918664" type="System">
+                                            <param id="0" name="Layout">Sala_L_2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="399888811932513" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="898095630336883">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="565577379751692" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="777782589351717" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="689565185547007" type="System">
+                                            <param id="0" name="Layout">Sala_L_3</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="288520063557372" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="318509166767106">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="764222730236983" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="809124662016674" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="678492726448235" type="System">
+                                            <param id="0" name="Layout">Sala_L_4</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="606732711331107" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="226594342376363">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="817835089149597" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_E_3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="734353274458601">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="250289977893614" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="650162925862422">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="616093429692403" type="Keyboard">
+                                                    <param id="0" name="Key">51</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="928508143532640">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="835154653300449" type="System">
+                                                            <param id="0" name="Variable">Cenario_ID</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">3</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="543737641652532" type="Audio">
+                                                            <param id="0" name="Audio file">DestrancarPorta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="892656209840873" type="System">
+                                                            <param id="0" name="Seconds">0.3</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="931029360138297" type="Audio">
+                                                            <param id="0" name="Audio file">Rangido</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                                        </action>
+                                                        <action id="-2" name="Go to layout" sid="475872329268846" type="System">
+                                                            <param id="0" name="Layout">Porão_L_3</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="945305874009423" type="System">
+                                                            <param id="0" name="Variable">Porta_ID</param>
+                                                            <param id="1" name="Value">3</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="576006005672590">
+                                            <conditions>
+                                                <condition id="0" name="On key pressed" sid="515329174993319" type="Keyboard">
+                                                    <param id="0" name="Key">50</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="584806327209811">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="579183698525656" type="System">
+                                                            <param id="0" name="Variable">Cenario_ID</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">4</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="967566677485502" type="Audio">
+                                                            <param id="0" name="Audio file">DestrancarPorta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="561054666775187" type="System">
+                                                            <param id="0" name="Seconds">0.3</param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="647828501981700" type="Audio">
+                                                            <param id="0" name="Audio file">Rangido</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                                        </action>
+                                                        <action id="-2" name="Go to layout" sid="214040662648713" type="System">
+                                                            <param id="0" name="Layout">Porão_L_4</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="940527515402339" type="System">
+                                                            <param id="0" name="Variable">Porta_ID</param>
+                                                            <param id="1" name="Value">3</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="991060262133282">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="100431617698729" type="Detetive2">
+                                    <param id="0" name="Object">portaF</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="970626181686777">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="924927836455101" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="596589345265730" type="System">
+                                            <param id="0" name="Variable">Pegou_Faca</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="150576697903912" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="805297743401618" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="800274662817665" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="466299800465587" type="System">
+                                            <param id="0" name="Variable">Cont_HUD</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="643629745513861" type="System" />
+                                    </actions>
+                                </event-block>
+                                <event-block sid="400833470438292">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="617158757769020" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="938818091657001" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="367896489594477" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="683101848396638" type="System">
+                                            <param id="0" name="Variable">Pegou_Soda</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="750622481076852" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="960993948425031" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="471616002246273" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="308799394152561" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="175778589244413" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="105974744347818" type="System">
+                                            <param id="0" name="Variable">Cont_HUD</param>
+                                            <param id="1" name="Value">3</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="431261656205824" type="System" />
+                                    </actions>
+                                </event-block>
+                                <event-block sid="240303194451331">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="496299563454417" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="552324190223271" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="478951899488354" type="System">
+                                            <param id="0" name="Variable">Pegou_Corda</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="863987059168630" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="557073128898056" type="System">
+                                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="456214774094973" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="596468457302307" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Value">4</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="542302812000789" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="227656482473393" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="280889310984453" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="206792136589027" type="System">
+                                            <param id="0" name="Variable">Cont_HUD</param>
+                                            <param id="1" name="Value">4</param>
+                                        </action>
+                                        <action id="-26" name="Restart layout" sid="820940118414321" type="System" />
+                                    </actions>
+                                </event-block>
+                                <event-block sid="717462863581806">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="142763999188422" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="358061341602692" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="377487478894147" type="System">
+                                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="123637585781207" type="System">
+                                            <param id="0" name="Variable">Pegou_Camera</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="408985844890397" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="336440746441955" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Value">5</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="721213268421999" type="System">
+                                            <param id="0" name="Variable">Porta_ID</param>
+                                            <param id="1" name="Value">4</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="122724024107458">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="369532820098691" type="System">
+                                            <param id="0" name="Variable">Cenario_ID</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">5</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="534505821644169" type="System">
+                                            <param id="0" name="Variable">Olhou_Camera</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="813082561278524" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="283797219996081" type="System">
+                                            <param id="0" name="Layout">F_Fim_L</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="554681887761607">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="742779485301747" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="159042440844907" type="Audio">
+                                            <param id="0" name="Audio file">Rangido</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="385759853544001">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="835538314659446" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="573966453259880" type="System">
+                                                    <param id="0" name="Variable">Porta_ID</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-26" name="Restart layout" sid="774699681853616" type="System" />
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="606192881202109">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="880292715640007" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="692961297671085" type="System">
+                                                    <param id="0" name="Variable">Porta_ID</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-26" name="Restart layout" sid="596064710609771" type="System" />
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="623884129038501">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="588859237488054" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="302621231243875" type="System">
+                                                    <param id="0" name="Variable">Porta_ID</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-26" name="Restart layout" sid="994796632888506" type="System" />
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="440930327978400">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="786181892102313" type="System">
+                                                    <param id="0" name="Variable">Cenario_ID</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">4</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="640389168901620" type="System">
+                                                    <param id="0" name="Variable">Porta_ID</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-26" name="Restart layout" sid="497640865247674" type="System" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="123498205733222">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="779544497233123" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_S_1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="352135996708760" type="Audio">
+                                    <param id="0" name="Audio file">Rangido</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="771238498160755" type="System">
+                                    <param id="0" name="Layout">2_L</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="639324560687552">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="239323681248319" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_S_2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="247923470287315" type="Audio">
+                                    <param id="0" name="Audio file">Rangido</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="825495198700749" type="System">
+                                    <param id="0" name="Layout">2_L</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="548664660241172">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="639257552859784" type="Detetive1_anim">
+                                    <param id="0" name="Object">porta_S_3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="381200190851518" type="Audio">
+                                    <param id="0" name="Audio file">Rangido</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Porta_Abrindo&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="177521236202526" type="System">
+                                    <param id="0" name="Layout">2_L</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="494287174733708">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="710723336761749" type="Detetive1_anim">
+                                    <param id="0" name="Object">espelho</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="354240379722133" type="espelho">
+                                    <param id="0" name="Animation">&quot;reflexo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="257442843941414">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="974572787878029" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="248438610590943" type="espelho">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="415861287166663">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="920138283118291" type="System">
+                            <param id="0" name="Interval (seconds)">10</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="703214633105575">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="574964729858588" type="Detetive2" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="858477199122121" type="Detetive1_anim">
+                                    <param id="0" name="Animation">&quot;Confuso&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="539004775623548" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="0" name="Play" sid="165079635512875" type="Audio">
+                                    <param id="0" name="Audio file">coçando (mp3cut.net)</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;M_Det_Coçando&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="863275908457203" type="System">
+                                    <param id="0" name="Seconds">1.3</param>
+                                </action>
+                                <action id="6" name="Stop" sid="919086299368264" type="Audio">
+                                    <param id="0" name="Tag">&quot;M_Det_Coçando&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="595479089308403" type="Audio">
+                                    <param id="0" name="Audio file">suspiro (mp3cut.net)</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;M_Det_Suspiro&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="647220662597772" type="System">
+                                    <param id="0" name="Seconds">1.3</param>
+                                </action>
+                                <action id="6" name="Stop" sid="349970073975203" type="Audio">
+                                    <param id="0" name="Tag">&quot;M_Det_Suspiro&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="330404497703565">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="746633482627609" type="Keyboard">
+                            <param id="0" name="Key">51</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="688408072219462" type="System">
+                            <param id="0" name="Variable">Layout_ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="220156473987494" type="System">
+                            <param id="0" name="Variable">Pegou_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="399678023357213" type="System">
+                            <param id="0" name="Layer">&quot;Layer_Historia&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="769585858941206" type="System">
+                            <param id="0" name="Group name">&quot;Historia&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="204423373572975" type="System">
+                            <param id="0" name="Group name">&quot;Detetive2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="659155897644008" type="System">
+                            <param id="0" name="Variable">Olhou_Camera</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="568136864602510" title="Historia">
+            <sub-events>
+                <event-block sid="488274365284086">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="816200596893533" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">seta_esquerda</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="840337463705126" type="System">
+                            <param id="0" name="Variable">Delay_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="104180000526711" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="477382782063593" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="107998150171695" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="325327431845881">
+                            <conditions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="695356250657569" type="System">
+                                    <param id="0" name="Variable">Delay_Camera</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="730676836110860" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="364577870315451" type="System">
+                                    <param id="0" name="Variable">Delay_Camera</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="287905135115262">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="227904003431547" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">seta_direita</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="765141099548578" type="System">
+                            <param id="0" name="Variable">Delay_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="952980876407117" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="573551053615434" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="219064465891347" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="924943707187564">
+                            <conditions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="355874919593786" type="System">
+                                    <param id="0" name="Variable">Delay_Camera</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="559878124640561" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="381581621945169" type="System">
+                                    <param id="0" name="Variable">Delay_Camera</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="887881466427987">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="117116491854159" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="130640842957813" type="foto">
+                            <param id="0" name="Animation">&quot;foto1&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="166832649122605">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="668384584256641" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="796044686273156" type="foto">
+                            <param id="0" name="Animation">&quot;foto2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="625888747737389">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="737142367023073" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="462367923138011" type="foto">
+                            <param id="0" name="Animation">&quot;foto3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="794598551499472">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="436895199025135" type="System">
+                            <param id="0" name="Variable">Cont_Foto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="593974597930672" type="foto">
+                            <param id="0" name="Animation">&quot;foto4&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="137418720392857">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="602004984036254" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">x_camera</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="267150248198052" type="System">
+                            <param id="0" name="Layer">&quot;Layer_Historia&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="561207223263915" type="System">
+                            <param id="0" name="Group name">&quot;Historia&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="146627892300550" type="System">
+                            <param id="0" name="Group name">&quot;Detetive2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="951697664682188">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="303508044167762" type="Detetive2">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">Sprite.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="322674367168441" type="Sprite">
+                    <param id="0" name="Layer">&quot;Layer_Atras&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="542874351680345">
+            <conditions>
+                <condition id="-22" name="Else" sid="884705306368947" type="System" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="536649185717878" type="Sprite">
+                    <param id="0" name="Layer">&quot;Layer_Frente&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

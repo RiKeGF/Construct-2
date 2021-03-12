@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">F_Menu_L</layout>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Detetive1_sprite/" />
+        <folder expanded="1" path="animation-folder/porta/" />
+        <folder expanded="1" path="animation-folder/Detetive2/" />
+        <folder expanded="1" path="animation-folder/porta_E_1/" />
+        <folder expanded="1" path="animation-folder/porta_E_2/" />
+        <folder expanded="1" path="animation-folder/porta_E_3/" />
+        <folder expanded="1" path="animation-folder/portaF/" />
+        <folder expanded="1" path="animation-folder/porta_S_2/" />
+        <folder expanded="1" path="animation-folder/porta_S_3/" />
+        <folder expanded="1" path="animation-folder/porta_S_1/" />
+        <folder expanded="1" path="animation-folder/Banheira/" />
+        <folder expanded="1" path="animation-folder/cortina_banheiro/" />
+        <folder expanded="1" path="animation-folder/vaso/" />
+        <folder expanded="1" path="animation-folder/espelho/" />
+        <folder expanded="1" path="animation-folder/pia/" />
+        <folder expanded="1" path="animation-folder/sangue_sala/" />
+        <folder expanded="1" path="animation-folder/faca/" />
+        <folder expanded="1" path="animation-folder/tv/" />
+        <folder expanded="1" path="animation-folder/caixa/" />
+        <folder expanded="1" path="animation-folder/mesa_porao/" />
+        <folder expanded="1" path="animation-folder/balcao_porao/" />
+        <folder expanded="1" path="animation-folder/corda/" />
+        <folder expanded="1" path="animation-folder/morto_porao/" />
+        <folder expanded="1" path="animation-folder/morto_sala2/" />
+        <folder expanded="1" path="animation-folder/chave_banheiro/" />
+        <folder expanded="1" path="animation-folder/soda/" />
+        <folder expanded="1" path="animation-folder/chave_porao/" />
+        <folder expanded="1" path="animation-folder/estante/" />
+        <folder expanded="1" path="animation-folder/desentupidor/" />
+        <folder expanded="1" path="animation-folder/desentupidor2/" />
+        <folder expanded="1" path="animation-folder/camera/" />
+        <folder expanded="1" path="animation-folder/obstaculo/" />
+        <folder expanded="1" path="animation-folder/preto/" />
+        <folder expanded="1" path="animation-folder/menu_bg/" />
+        <folder expanded="1" path="animation-folder/icon_jogar/" />
+        <folder expanded="1" path="animation-folder/icon_creditos/" />
+        <folder expanded="1" path="animation-folder/icon_info/" />
+        <folder expanded="1" path="animation-folder/icon_titulo/" />
+        <folder expanded="1" path="animation-folder/fade_menu/" />
+        <folder expanded="1" path="animation-folder/icon_integrantes/" />
+        <folder expanded="1" path="animation-folder/icon_voltar/" />
+        <folder expanded="1" path="animation-folder/icon_titulo_creditos/" />
+        <folder expanded="1" path="animation-folder/icon_teclado/" />
+        <folder expanded="1" path="animation-folder/icon_titulo_info/" />
+        <folder expanded="1" path="animation-folder/icon_controle/" />
+        <folder expanded="1" path="animation-folder/icon_historia/" />
+        <folder expanded="1" path="animation-folder/icon_titulo_historia/" />
+        <folder expanded="1" path="animation-folder/icon_historia_text/" />
+        <folder expanded="1" path="animation-folder/fade_creditos/" />
+        <folder expanded="1" path="animation-folder/fade_menu2/" />
+        <folder expanded="1" path="animation-folder/fade_historia/" />
+        <folder expanded="1" path="animation-folder/icon_titulo_controles/" />
+        <folder expanded="1" path="animation-folder/fade_controles/" />
+        <folder expanded="1" path="animation-folder/icon_voltar2/" />
+        <folder expanded="1" path="animation-folder/parede/" />
+        <folder expanded="1" path="animation-folder/fade_L1/" />
+        <folder expanded="1" path="animation-folder/Detetive1_anim/" />
+        <folder expanded="1" path="animation-folder/cord/" />
+        <folder expanded="1" path="animation-folder/pause_bg/" />
+        <folder expanded="1" path="animation-folder/icon_titulo_pause/" />
+        <folder expanded="1" path="animation-folder/icon_continuar_pause/" />
+        <folder expanded="1" path="animation-folder/icon_sair_pause/" />
+        <folder expanded="1" path="animation-folder/fade_sala/" />
+        <folder expanded="1" path="animation-folder/fade_L2/" />
+        <folder expanded="1" path="animation-folder/fade_banheiro/" />
+        <folder expanded="1" path="animation-folder/fade_porao/" />
+        <folder expanded="1" path="animation-folder/moldA1/" />
+        <folder expanded="1" path="animation-folder/moldA2/" />
+        <folder expanded="1" path="animation-folder/moldB1/" />
+        <folder expanded="1" path="animation-folder/moldB2/" />
+        <folder expanded="1" path="animation-folder/moldB3/" />
+        <folder expanded="1" path="animation-folder/moldC1/" />
+        <folder expanded="1" path="animation-folder/moldC2/" />
+        <folder expanded="1" path="animation-folder/moldC3/" />
+        <folder expanded="1" path="animation-folder/casa/" />
+        <folder expanded="1" path="animation-folder/quadro1/" />
+        <folder expanded="1" path="animation-folder/sofa/" />
+        <folder expanded="1" path="animation-folder/quadro_flor/" />
+        <folder expanded="1" path="animation-folder/quadro_flor2/" />
+        <folder expanded="1" path="animation-folder/quadro_flor3/" />
+        <folder expanded="1" path="animation-folder/banheira2/" />
+        <folder expanded="1" path="animation-folder/bloco/" />
+        <folder expanded="1" path="animation-folder/quadros/" />
+        <folder expanded="1" path="animation-folder/quadros2/" />
+        <folder expanded="1" path="animation-folder/banheira1/" />
+        <folder expanded="1" path="animation-folder/quadros3/" />
+        <folder expanded="1" path="animation-folder/caixa2/" />
+        <folder expanded="1" path="animation-folder/caixa3/" />
+        <folder expanded="1" path="animation-folder/caixa4/" />
+        <folder expanded="1" path="animation-folder/caixa5/" />
+        <folder expanded="1" path="animation-folder/televisao/" />
+        <folder expanded="1" path="animation-folder/tele/" />
+        <folder expanded="1" path="animation-folder/candelabro/" />
+        <folder expanded="1" path="animation-folder/livros/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/vaso1/" />
+        <folder expanded="1" path="animation-folder/fundo/" />
+        <folder expanded="1" path="animation-folder/fundo2/" />
+        <folder expanded="1" path="animation-folder/preto2/" />
+        <folder expanded="1" path="animation-folder/moldura_camera/" />
+        <folder expanded="1" path="animation-folder/foto/" />
+        <folder expanded="1" path="animation-folder/barra_preta/" />
+        <folder expanded="1" path="animation-folder/seta_direita/" />
+        <folder expanded="1" path="animation-folder/seta_esquerda/" />
+        <folder expanded="1" path="animation-folder/x_camera/" />
+        <folder expanded="1" path="animation-folder/fim_bg/" />
+        <folder expanded="1" path="animation-folder/icon_venceu/" />
+        <folder expanded="1" path="animation-folder/icon_menu/" />
+        <folder expanded="1" path="animation-folder/fade_fim/" />
+        <folder expanded="1" path="animation-folder/Gatilho_TV/" />
+    </folders-expanded>
+</c2uistate>

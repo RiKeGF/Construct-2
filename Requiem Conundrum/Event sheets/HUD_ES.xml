@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HUD_ES</name>
+    <events>
+        <event-block sid="181797522012066">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="880116300271554" type="System">
+                    <param id="0" name="Variable">Cont_HUD</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="245184364134667" type="System">
+                    <param id="0" name="Group name">&quot;x1&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-12" name="Set group active" sid="256820209057518" type="System">
+                    <param id="0" name="Group name">&quot;x2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="357727646353081" type="System">
+                    <param id="0" name="Group name">&quot;x3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="481537685887899" type="System">
+                    <param id="0" name="Group name">&quot;x4&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="538357794908249">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="281940955376918" type="System">
+                    <param id="0" name="Variable">Cont_HUD</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="779011945437897" type="System">
+                    <param id="0" name="Group name">&quot;x1&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="341895175161826" type="System">
+                    <param id="0" name="Group name">&quot;x2&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-12" name="Set group active" sid="107629942537261" type="System">
+                    <param id="0" name="Group name">&quot;x3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="998924674033345" type="System">
+                    <param id="0" name="Group name">&quot;x4&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="700817169907969">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="197757649207573" type="System">
+                    <param id="0" name="Variable">Cont_HUD</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="779913679627428" type="System">
+                    <param id="0" name="Group name">&quot;x1&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="206158322762649" type="System">
+                    <param id="0" name="Group name">&quot;x2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="577219932741885" type="System">
+                    <param id="0" name="Group name">&quot;x3&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-12" name="Set group active" sid="703700274705434" type="System">
+                    <param id="0" name="Group name">&quot;x4&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="838087503938635">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="580399296407305" type="System">
+                    <param id="0" name="Variable">Cont_HUD</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="412616759919369" type="System">
+                    <param id="0" name="Group name">&quot;x1&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="630185693346825" type="System">
+                    <param id="0" name="Group name">&quot;x2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="402696517190902" type="System">
+                    <param id="0" name="Group name">&quot;x3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="208544950689836" type="System">
+                    <param id="0" name="Group name">&quot;x4&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="140777910931820" title="x1">
+            <sub-events>
+                <event-block sid="264643927907768">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="557095690084532" type="moldA1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="900476844095782" type="moldA2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="962044553883387" type="moldB1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="205603786527376" type="moldB2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="788682875110281" type="moldB3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="907424677937326" type="moldC1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="849197591478057" type="moldC2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="648424849354902" type="moldC3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="433709191993394" title="x2">
+            <sub-events>
+                <event-block sid="199287679987193">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="868157938227497" type="moldA1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="856698691201068" type="moldA2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="665968757205289">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="759599105418014" type="moldB1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="811953986840911" type="moldB2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="882975002208659" type="moldB3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="390185749321030" type="moldC1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="152132838018933" type="moldC2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="418566498088510" type="moldC3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="138177925114672">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="325425640277764" type="System">
+                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="168216712716696" type="moldA1">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="594824790261498">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="791479327777798" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="526380430349821" type="moldA2">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="996440158806471">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="231864316195028" type="System">
+                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="376130994773249" type="moldA1">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="402768304865635">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="357006327525918" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="772895570009968" type="moldA2">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="547237779252779" title="x3">
+            <sub-events>
+                <event-block sid="956204484053800">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="117894439663953" type="moldB1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="282585829119308" type="moldB2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="972270864694828" type="moldB3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="592845218951913">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="112771949804155" type="moldA1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="629539340125134" type="moldA2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="331901351781507" type="moldC1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="254890729818840" type="moldC2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="783529443162799" type="moldC3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="485221761172808">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="106813801894109" type="System">
+                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="319268607773172" type="moldB1">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="999445596826427">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="842686903397089" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="943508096075173" type="moldB2">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="351828622695555">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="327187778285931" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="460792435921110" type="moldB3">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="570074776571363">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="680568747947765" type="System">
+                            <param id="0" name="Variable">Pegou_Desintupidor</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="347871708238550" type="moldB1">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="769443430028395">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="487632777295335" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="873234194279259" type="moldB2">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="154477640839983">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="830981237074693" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="547299435029369" type="moldB3">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="464045374781860" title="x4">
+            <sub-events>
+                <event-block sid="657360854718942">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="110832460045521" type="moldC1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="560959460393268" type="moldC2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="828972145424738" type="moldC3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="929404573927835">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="201295233246059" type="moldA1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="531883525982251" type="moldA2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="298565208440332" type="moldB1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="588845383035081" type="moldB2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="229503393786602" type="moldB3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="873276260660061">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="988294182759863" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="245253013442786" type="moldC1">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="428767859578098">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="883146435865141" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="544042942701153" type="moldC2">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="776614279387422">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="947093442024971" type="System">
+                            <param id="0" name="Variable">Pegou_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="921769383620883" type="moldC3">
+                            <param id="0" name="Animation">&quot;item&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="453467588035201">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="622474698839939" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Banheiro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="431523814880029" type="moldC1">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="120844866841939">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="608665790009981" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="773093680576106" type="moldC2">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="494072357388326">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="701698984212765" type="System">
+                            <param id="0" name="Variable">Pegou_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="293612429384942" type="moldC3">
+                            <param id="0" name="Animation">&quot;vazio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="535209831292170">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="528729102177160" type="System">
+                    <param id="0" name="Variable">Pegou_Faca</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="691695227257974" type="System">
+                    <param id="0" name="Variable">Pegou_Soda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="459484425433774" type="System">
+                    <param id="0" name="Variable">Pegou_Corda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="609543115400935" type="bloco">
+                    <param id="0" name="Animation">&quot;bloco&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="786404438918134">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="590093033748384" type="System">
+                    <param id="0" name="Variable">Pegou_Faca</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="876507879736151" type="System">
+                    <param id="0" name="Variable">Pegou_Soda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="580277196426588" type="System">
+                    <param id="0" name="Variable">Pegou_Corda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="961603838358276" type="bloco">
+                    <param id="0" name="Animation">&quot;bloco1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="994734868268078">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="767906028926458" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="138810106523361" type="Audio">
+                            <param id="0" name="Audio file">lapis (online-audio-converter.com)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;lapis&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="833114308570643" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="689246522453594">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="711682395407276" type="System">
+                    <param id="0" name="Variable">Pegou_Faca</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="291592246427909" type="System">
+                    <param id="0" name="Variable">Pegou_Soda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="353477828090278" type="System">
+                    <param id="0" name="Variable">Pegou_Corda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="610487642847968" type="bloco">
+                    <param id="0" name="Animation">&quot;bloco2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="662177130596243">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="123438252679395" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="766183585684303" type="Audio">
+                            <param id="0" name="Audio file">lapis (online-audio-converter.com)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;lapis&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="888933680183787" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="989073696200117">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="532471175133386" type="System">
+                    <param id="0" name="Variable">Pegou_Faca</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="166911074885115" type="System">
+                    <param id="0" name="Variable">Pegou_Soda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="566308911867918" type="System">
+                    <param id="0" name="Variable">Pegou_Corda</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="239631353054606" type="bloco">
+                    <param id="0" name="Animation">&quot;bloco3&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="113962545978487">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="616140009375383" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="504294674617540" type="Audio">
+                            <param id="0" name="Audio file">lapis (online-audio-converter.com)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;lapis&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="995772710441414" type="System">
+                            <param id="0" name="Variable">Cont_Blco_Audio</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

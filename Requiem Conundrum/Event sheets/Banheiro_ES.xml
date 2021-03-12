@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Banheiro_ES</name>
+    <events>
+        <include>Pause_ES</include>
+        <include>HUD_ES</include>
+        <include>Detetive_ES_L2</include>
+        <event-block sid="308345691312712">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="876642410605007" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="229382976528824" type="System">
+                    <param id="0" name="Variable">Layout_ID</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-9" name="Set value" sid="497901947826122" type="System">
+                    <param id="0" name="Variable">Porta_ID</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="248223045538736" type="Detetive1_anim">
+                    <param id="0" name="Animation">&quot;paradoC&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="476714310495534" type="Detetive1_anim">
+                    <param id="0" name="Pin to">Detetive2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="880057860603142" type="fade_banheiro">
+                    <param id="0" name="Fade-in time">0</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="631605741510956" type="fade_banheiro">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="564295047932378" type="fade_banheiro">
+                    <param id="0" name="Fade-out time">0.8</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="474336026042593" type="fade_banheiro" />
+            </actions>
+            <sub-events>
+                <event-block sid="465206513686375">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="810787287565518" type="System">
+                            <param id="0" name="Variable">Pegou_Soda</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="595273030016108" type="soda" />
+                    </actions>
+                </event-block>
+                <event-block sid="952508013966343">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="339058636580502" type="System">
+                            <param id="0" name="Variable">Pegou_Chave_Porao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="533572776283157" type="chave_porao" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

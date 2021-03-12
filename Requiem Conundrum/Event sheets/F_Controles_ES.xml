@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>F_Controles_ES</name>
+    <events>
+        <include>TESTE</include>
+        <event-block sid="842367136555324">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="220911269375817" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="931610123099408" type="fade_controles">
+                    <param id="0" name="Fade-in time">0</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="251738315088606" type="fade_controles">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="288004691271264" type="fade_controles">
+                    <param id="0" name="Fade-out time">0.8</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="345296686298027" type="fade_controles" />
+            </actions>
+        </event-block>
+        <event-block sid="554058492490739">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="330552629622494" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">icon_jogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="784082062151039" type="icon_jogar">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="528700005416299" type="fade_controles">
+                    <param id="0" name="Fade-in time">0.8</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="689229865497503" type="fade_controles">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="887135657184914" type="fade_controles">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="804799246125729" type="fade_controles" />
+                <action id="-16" name="Wait" sid="534323669729608" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="875821184380263" type="icon_jogar">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="6" name="Stop" sid="130080007013849" type="Audio">
+                    <param id="0" name="Tag">&quot;M_Menu&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="819175860817110" type="System">
+                    <param id="0" name="Layout">1_L</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="703175110572378">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="856449666201755" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">icon_voltar2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="124862164997566" type="icon_voltar2">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="498389965274737" type="fade_controles">
+                    <param id="0" name="Fade-in time">0.8</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="807703219386106" type="fade_controles">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="669486472867560" type="fade_controles">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="134970938366565" type="fade_controles" />
+                <action id="-16" name="Wait" sid="340513131743887" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="420051587185897" type="icon_voltar2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="657315467587756" type="System">
+                    <param id="0" name="Layout">F_Menu2_L</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

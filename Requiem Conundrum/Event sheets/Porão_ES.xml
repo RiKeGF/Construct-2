@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Porão_ES</name>
+    <events>
+        <include>Pause_ES</include>
+        <include>HUD_ES</include>
+        <include>Detetive_ES_L2</include>
+        <event-block sid="559698611063729">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="481061492590020" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="917718397580106" type="System">
+                    <param id="0" name="Variable">Layout_ID</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="460947950936320" type="System">
+                    <param id="0" name="Variable">Porta_ID</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="687783813388444" type="System">
+                    <param id="0" name="Layer">&quot;Layer_Historia&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="810997082650058" type="Detetive1_anim">
+                    <param id="0" name="Animation">&quot;paradoC&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="793487321021569" type="Detetive1_anim">
+                    <param id="0" name="Pin to">Detetive2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="362937638257991" type="fade_porao">
+                    <param id="0" name="Fade-in time">0</param>
+                </action>
+                <action behavior="Fade" id="3" name="Set wait time" sid="307779895126858" type="fade_porao">
+                    <param id="0" name="Wait time">0.8</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="120906982185744" type="fade_porao">
+                    <param id="0" name="Fade-out time">0.8</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="987492829155488" type="fade_porao" />
+            </actions>
+            <sub-events>
+                <event-block sid="912613942830362">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="739488453225305" type="System">
+                            <param id="0" name="Variable">Pegou_Corda</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="975812804543867" type="corda" />
+                    </actions>
+                </event-block>
+                <event-block sid="833396794558038">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="198742932241357" type="System">
+                            <param id="0" name="Variable">Pegou_Camera</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="405180514130578" type="camera" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

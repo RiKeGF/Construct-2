@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Variaveis</name>
+    <events>
+        <variable constant="0" name="Cont_Blco_Audio" sid="432589935996170" static="0" type="number">0</variable>
+        <variable constant="0" name="Gatilho_TV" sid="827671203482757" static="0" type="number">0</variable>
+        <variable constant="0" name="Olhou_Camera" sid="890785258713107" static="0" type="number">0</variable>
+        <variable constant="0" name="Delay_Camera" sid="284021616583963" static="0" type="number">0</variable>
+        <variable constant="0" name="Cont_Foto" sid="304852016493705" static="0" type="number">1</variable>
+        <variable constant="0" name="Cont_HUD" sid="808517378199131" static="0" type="number">1</variable>
+        <variable constant="0" name="Pause" sid="456984938495806" static="0" type="number">0</variable>
+        <event-group description="" sid="604179526904628" title="Coletaveis" />
+        <variable constant="0" name="Pegou_Camera" sid="798644742967138" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Corda" sid="708737623243295" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Soda" sid="632753255604689" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Desintupidor" sid="846777939974662" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Chave_Porao" sid="886141253984691" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Chave_Banheiro" sid="517944950551162" static="0" type="number">0</variable>
+        <variable constant="0" name="Pegou_Faca" sid="374114197621617" static="0" type="number">0</variable>
+        <event-group description="" sid="998964805719102" title="ID&apos;s" />
+        <variable constant="0" name="Cenario_ID" sid="782585320377050" static="0" type="number">1</variable>
+        <variable constant="0" name="Layout_ID" sid="446690762157256" static="0" type="number">0</variable>
+        <variable constant="0" name="Porta_ID" sid="857228779428671" static="0" type="number">0</variable>
+        <event-group description="" sid="781740451786335" title="Pistas" />
+        <variable constant="0" name="HUD_Soda" sid="732518991113377" static="0" type="number">0</variable>
+        <variable constant="0" name="HUD_Corda" sid="258710195550267" static="0" type="number">0</variable>
+        <variable constant="0" name="HUD_Faca" sid="738397053929351" static="0" type="number">0</variable>
+    </events>
+</c2eventsheet>

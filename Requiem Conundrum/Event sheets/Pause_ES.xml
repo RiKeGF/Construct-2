@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Pause_ES</name>
+    <events>
+        <event-group description="" sid="175673730307929" title="Pause">
+            <sub-events>
+                <event-block sid="803342251479900">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="688341522350923" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="629968415711248" type="System">
+                            <param id="0" name="Layer">&quot;Layer_Pause&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="848123666956906">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="993467859123581" type="Keyboard">
+                            <param id="0" name="Key">80</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="890245064726359" type="System">
+                            <param id="0" name="Variable">Pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="325764876820970" type="System">
+                            <param id="0" name="Variable">Pause</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="220190138814979" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="606031550808791" type="System">
+                            <param id="0" name="Layer">&quot;Layer_Pause&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="434456403903795" type="System">
+                            <param id="0" name="Group name">&quot;Detetive2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="422393356203669">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="511385827627578" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">icon_continuar_pause</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="337433905294861" type="System">
+                            <param id="0" name="Variable">Pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="125146259197897" type="icon_continuar_pause">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="402076104731604" type="System">
+                            <param id="0" name="Variable">Pause</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="327461131603038" type="System">
+                            <param id="0" name="Group name">&quot;Detetive2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="655037061551814" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="759309107561733" type="System">
+                            <param id="0" name="Seconds">0.8</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="576420172178525" type="System">
+                            <param id="0" name="Layer">&quot;Layer_Pause&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Sine" id="0" name="Set active" sid="916126213403551" type="icon_continuar_pause">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="757577595402976">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="923449380622591" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">icon_sair_pause</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="595632299253677" type="System">
+                            <param id="0" name="Variable">Pause</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="106991349784398">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="852507863148265" type="System">
+                                    <param id="0" name="Variable">Layout_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="632014845616890" type="Detetive1_anim" />
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="474674052088612" type="Detetive2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="532420511373893" type="icon_sair_pause">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="837167594037307" type="System">
+                                    <param id="0" name="Variable">Pause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="247312825410918" type="fade_L1">
+                                    <param id="0" name="Fade-in time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="3" name="Set wait time" sid="363102394896208" type="fade_L1">
+                                    <param id="0" name="Wait time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="519157347724843" type="fade_L1">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="569565870350032" type="fade_L1" />
+                                <action id="-13" name="Set time scale" sid="249535021708109" type="System">
+                                    <param id="0" name="Time scale">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="841664394224226" type="System">
+                                    <param id="0" name="Seconds">0.8</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="686705906297916" type="icon_sair_pause">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="793018116185863" type="System">
+                                    <param id="0" name="Layout">F_Menu_L</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="319968771574745" type="System" />
+                                <action id="-45" name="Reset persisted objects" sid="569959242096811" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="387892388427915">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="681843006829880" type="System">
+                                    <param id="0" name="Variable">Layout_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="215238567567012" type="Detetive1_anim" />
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="328146355340113" type="Detetive2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="289193091559691" type="icon_sair_pause">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="157798950158112" type="System">
+                                    <param id="0" name="Variable">Pause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="471636414788539" type="fade_L2">
+                                    <param id="0" name="Fade-in time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="3" name="Set wait time" sid="332106522114133" type="fade_L2">
+                                    <param id="0" name="Wait time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="600924868497610" type="fade_L2">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="496762760264355" type="fade_L2" />
+                                <action id="-13" name="Set time scale" sid="846453944722468" type="System">
+                                    <param id="0" name="Time scale">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="757330639209020" type="System">
+                                    <param id="0" name="Seconds">0.8</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="574180504807241" type="icon_sair_pause">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="675357710876622" type="System">
+                                    <param id="0" name="Layout">F_Menu_L</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="858155661541358" type="System" />
+                                <action id="-45" name="Reset persisted objects" sid="226954995139938" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="312025201357866">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="247659823681560" type="System">
+                                    <param id="0" name="Variable">Layout_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="270625123051691" type="Detetive1_anim" />
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="741850798738688" type="Detetive2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="234853574859559" type="icon_sair_pause">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="442382886126437" type="System">
+                                    <param id="0" name="Variable">Pause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="459746906080198" type="fade_sala">
+                                    <param id="0" name="Fade-in time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="3" name="Set wait time" sid="211907442285364" type="fade_sala">
+                                    <param id="0" name="Wait time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="268903415049475" type="fade_sala">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="273980648189259" type="fade_sala" />
+                                <action id="-13" name="Set time scale" sid="683571528298142" type="System">
+                                    <param id="0" name="Time scale">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="452818663500315" type="System">
+                                    <param id="0" name="Seconds">0.8</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="695016332189462" type="icon_sair_pause">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="485338294212378" type="System">
+                                    <param id="0" name="Layout">F_Menu_L</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="921101238601200" type="System" />
+                                <action id="-45" name="Reset persisted objects" sid="917740506112160" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="749479505921838">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="457855775222302" type="System">
+                                    <param id="0" name="Variable">Layout_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="660017787905844" type="Detetive1_anim" />
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="913738082145159" type="Detetive2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="108489539455868" type="icon_sair_pause">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="983164113437174" type="System">
+                                    <param id="0" name="Variable">Pause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="811056553518180" type="fade_banheiro">
+                                    <param id="0" name="Fade-in time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="3" name="Set wait time" sid="268621112272933" type="fade_banheiro">
+                                    <param id="0" name="Wait time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="359959286247343" type="fade_banheiro">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="171067271955673" type="fade_banheiro" />
+                                <action id="-13" name="Set time scale" sid="423116234626635" type="System">
+                                    <param id="0" name="Time scale">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="330136318873414" type="System">
+                                    <param id="0" name="Seconds">0.8</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="680483863860103" type="icon_sair_pause">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="488237833753827" type="System">
+                                    <param id="0" name="Layout">F_Menu_L</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="275137850342798" type="System" />
+                                <action id="-45" name="Reset persisted objects" sid="598038086165477" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="175510439505095">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="455558861714158" type="System">
+                                    <param id="0" name="Variable">Layout_ID</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="553710979832372" type="Detetive1_anim" />
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="216034887125055" type="Detetive2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="631409563391214" type="icon_sair_pause">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="132987352393995" type="System">
+                                    <param id="0" name="Variable">Pause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="931331887057312" type="fade_porao">
+                                    <param id="0" name="Fade-in time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="3" name="Set wait time" sid="716305738923477" type="fade_porao">
+                                    <param id="0" name="Wait time">0.8</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="706229317335632" type="fade_porao">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="719009230008060" type="fade_porao" />
+                                <action id="-13" name="Set time scale" sid="308677001612066" type="System">
+                                    <param id="0" name="Time scale">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="897092763212571" type="System">
+                                    <param id="0" name="Seconds">0.8</param>
+                                </action>
+                                <action behavior="Sine" id="0" name="Set active" sid="479577685470976" type="icon_sair_pause">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="610379078171113" type="System">
+                                    <param id="0" name="Layout">F_Menu_L</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="939571994135557" type="System" />
+                                <action id="-45" name="Reset persisted objects" sid="644013542431045" type="System" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
